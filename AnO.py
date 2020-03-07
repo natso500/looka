@@ -26,8 +26,14 @@ if S == 2:
  print "%sThis is Cpnal  ===>>  %s %s:2083 %s" %(R, G, user, W)
 elif S == 1:
  os.system("git clone https://github.com/natso500/NatSo.git")
+ os.system("cd NatSo")
+ os.system("bash install.sh")
+ os.system("bash PLS.sh")
 elif S == 3:
  os.system("git clone https://github.com/natso500/CUUT_ALL.git")
+ os.system("cd CUUT_ALL")
+ os.system("bash install.sh")
+ os.system("bash CUUT_ALL.sh")
  
 
 
