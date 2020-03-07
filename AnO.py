@@ -10,16 +10,23 @@ print
 print                           
 print                     
 print G
+time.sleep(0.5)
 print        "    -1 Dos-Attak                                          ".center(44)
-print      "     -2  teak Cpnal          \  (   )   /                      ".center(44)
+time.sleep(0.5)
+print      "     -2  teak Cpnal          \  (   )   /                    ".center(44)
+time.sleep(0.5)
 print     "       -3 Cut net            (  O   O  )               ".center(44)
+time.sleep(0.5)
 print   "                           (     {}       )              ".center(44)
+time.sleep(0.5)
 print W 
+time.sleep(0.5)
 S =input ( R + "Enter ===>>"  + W)
 if S == 2:
  print
  print
  user=raw_input ("Enter url :  ")
+time.sleep(0.5)
  os.system("clear")
  print "pleas wait ... "
  time.sleep(10)
